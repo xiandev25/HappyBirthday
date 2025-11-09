@@ -82,7 +82,7 @@ fun GreetingImage(
 @Composable
 fun BirthdayCardPreview() {
     HappyBirthdayTheme {
-        GreetingText(
+        GreetingImage(
             message = "Happy Birthday, Carmelita!",
             from = "Emma"
         )
